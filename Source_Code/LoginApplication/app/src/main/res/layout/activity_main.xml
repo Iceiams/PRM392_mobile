@@ -54,7 +54,9 @@
         android:backgroundTint="@color/blue_loginbtn"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:onClick="onLogin"/>
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -113,7 +115,6 @@
         android:layout_below="@id/loginbtn"
         android:layout_margin="35dp"
         android:layout_centerHorizontal="true"/>
-
 
 
     <LinearLayout
